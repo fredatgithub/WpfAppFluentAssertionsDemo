@@ -33,7 +33,7 @@ namespace TestProjectXunitDemo
     [InlineData(5, true)]
     [InlineData(9, false)]
     [InlineData(17, true)]
-    
+    [InlineData(19, true)]
     public void Test_Is_prime(int source, bool expected)
     {
       bool result = Helper.IsPrime(source);
